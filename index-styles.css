@@ -1,5 +1,13 @@
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f8ab62;
+}
+
+.row, .img-fluid{
+    border-radius: 4px;
+}
+
 h2{
-    color: #27ae60;
+    color: #f59133;
     font-weight: 900;
 }
 
@@ -7,11 +15,71 @@ p{
     color:#34495e;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #34495e;
+.btn{
+    border-color: #c45f00;
+    background-color:  #f59133;
+}
+
+.btn:hover{
+    border-color: #c45f00;
+    background-color:  #f8ab62;
+}
+
+.link, .link:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #f59133;
 }
 
 .carousel-caption h5{
     font-size: 2em;
-    color: #fd7e14;
+    color: #ffffff;
+    height: 50px;
+   
 }
+
+.navbar {
+    top: 0;
+    position:fixed;
+    margin:0px;
+    width:100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgb(110, 110, 110);
+    z-index: 10;
+}
+
+.text-dark{
+    text-decoration: none;
+}
+
+.text-dark:hover{
+    color: #f59133;
+}
+
+.carousel{
+    padding-top: 50px;
+}
+
+.carousel-caption{
+    position: static;
+    background-color: rgb(0, 0, 0);
+    padding-top: 0;
+    padding-bottom: 60px;
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-inner, .carousel, .slide{
+    overflow: hidden;
+}
+
+.carousel-caption h5{
+    margin: auto;
+}
+
+ol.carousel-indicators li.active {
+    background-color: #f59133;
+  }
