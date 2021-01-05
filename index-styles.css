@@ -37,8 +37,8 @@ p{
 .carousel-caption h5{
     font-size: 2em;
     color: #ffffff;
-    height: 50px;
-   
+    height: auto;
+    margin: auto;
 }
 
 .navbar {
@@ -64,20 +64,24 @@ p{
 }
 
 .carousel-caption{
-    position: static;
-    background-color: rgb(0, 0, 0);
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.541);
     padding-top: 0;
-    padding-bottom: 60px;
+    padding-bottom: 0;
     width: 100%;
-    margin: auto;
+    height: 80px;
+    margin-top: -60px;
+}
+
+.carousel-indicators{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
 }
 
 .carousel-inner, .carousel, .slide{
     overflow: hidden;
-}
-
-.carousel-caption h5{
-    margin: auto;
 }
 
 ol.carousel-indicators li.active {
