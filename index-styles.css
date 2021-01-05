@@ -65,7 +65,7 @@ p{
 
 .carousel-caption{
     position: sticky;
-    background-color: rgba(0, 0, 0, 0.541);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.26) 120%);
     padding-top: 0;
     padding-bottom: 0;
     width: 100%;
