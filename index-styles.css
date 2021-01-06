@@ -1,6 +1,9 @@
 .navbar-light .navbar-nav .nav-link:hover {
     color: #f8ab62;
 }
+footer a:hover{
+    text-decoration: underline;
+}
 
 .row, .img-fluid{
     border-radius: 4px;
